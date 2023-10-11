@@ -1,0 +1,42 @@
+{
+  "name": "discordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format:check": 
+    "prettier --check .",
+    "format:write": "prettier --write .",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint --fix ."
+  },
+  "author": "Paras",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.5",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^2.0.1",
+    "@discordjs/voice": "^0.16.0",
+    "@distube/spotify": "^1.5.1",
+    "canvacord": "^5.4.10",
+    "discord-api-types": "^0.37.57",
+    "discord-player": "^6.6.4",
+    "discord.js": "^14.13.0",
+    "discord.js-leveling": "^5.4.0",
+    "distube": "^4.1.0",
+    "ffmpeg-static": "^5.2.0",
+    "libsodium-wrappers": "^0.7.13",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.3",
+    "node-fetch": "^3.3.2",
+    "yt-search": "^2.10.4",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.3"
+  }
+}
